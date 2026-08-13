@@ -43,6 +43,7 @@ nav{
     cursor: pointer;
     border-radius: 100%;
     width: 40px;
+    padding: 6px;
 }
 
 .container-nav > img :hover{
@@ -54,6 +55,10 @@ section{
     font-family: Helvetica;
     background-color: #FFFFFF;
     color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+     border-right: 1px solid #E9E9E9;
+     overflow: hidden;
 
 }
 
@@ -61,10 +66,143 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     color: #FFFFFF;
     gap: 16px;
     
     
+
+}
+
+form{
+    padding: 10px 16px;
+}
+
+
+input{
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #F0F0F0;
+
+}
+
+
+input:focus{
+    border: 1px solid #32A961;;
+    outline: none;
+
+}
+
+.subcaixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+   
+}
+
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 10px 16px;
+
+}
+
+
+.btn-container button{
+    border: none;
+     background-color: #F0F0F0;
+    padding: 6px 14px;
+    border-radius: 16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.btn-container button.ativo{
+    background-color: #D9FDD3;
+    color: #008069;
+
+
+}
+
+
+.lista-conversas{
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+.conversa{
+   display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 16px;
+    cursor: pointer;
+    position: relative;
+    background-color: #FFFFFF;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  
+}
+
+
+.conversa.ativa{
+     background-color: #F0F2F1;
+
+}
+
+
+.conversa:hover{
+        transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+
+}
+
+
+.avatar{
+     width: 45px;
+    height: 45px;
+    min-width: 45px;
+    border-radius: 100%;
+    background-color: #8FA8BF;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+
+.conversa-info{
+     flex: 1;
+    min-width: 0;
+}
+
+
+.conversa-topo{
+     display: flex;
+    justify-content: space-between;
+
+}
+.nome {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.hora{
 
 }
 

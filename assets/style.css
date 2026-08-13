@@ -96,6 +96,15 @@ input:focus{
 }
 
 
+.subcaixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+
+}
 
 .btn-container{
     justify-content: space-around;

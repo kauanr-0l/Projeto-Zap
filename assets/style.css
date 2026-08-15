@@ -106,7 +106,7 @@ input:focus {
     color: #008069;
 }
 
-/* lista de conversas */
+
 .lista-conversas {
     flex: 1;
     overflow-y: auto;
@@ -126,9 +126,6 @@ input:focus {
 .conversa.ativa {
     background-color: #F0F2F1;
 }
-
-/* efeito de sobreposição: o item cresce um pouco, sobe o z-index
-   e ganha sombra, então visualmente ele "passa por cima" dos vizinhos */
 .conversa:hover {
     transform: scale(1.03);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -192,7 +189,6 @@ input:focus {
     padding: 0 5px;
 }
 
-/* área principal do chat */
 main {
     background-color: #DDD5CC;
     color: white;

@@ -1,15 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="part2.css">
-    <title>Part 2</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./part2.css" />
+  <title>Perfil</title>
 </head>
 <body>
-    <div></div>
 
-
+  <div class="layout-grid">
     
+
+    <aside class="coluna-perfil">
+ 
+      <nav class="nav-lateral">
+        <div class="nav-topo">
+          <img src="./assets/icons/messages.svg" alt="Mensagens" />
+          <img src="./assets/icons/status.svg" alt="Status" />
+          <img src="./assets/icons/channels.svg" alt="Canais" />
+          <img src="./assets/icons/community.svg" alt="Comunidades" />
+        </div>
+        <div class="nav-base">
+          <img src="./assets/icons/settings.svg" alt="Configurações" />
+          <img class="foto-mini" src="./assets/imgs/son.jpeg" alt="Perfil" />
+        </div>
+      </nav>
+
+  
+      <main class="painel-perfil">
+        <h1 class="titulo-perfil">Perfil</h1>
+
+        <div class="container-foto-perfil">
+          <img class="foto-perfil" src="./assets/imgs/son.jpeg" alt="Foto de Perfil" />
+        </div>
+
+        <div class="campo-perfil">
+          <span class="label">Nome</span>
+          <p class="valor">Ricardo da Silva</p>
+        </div>
+
+        <div class="campo-perfil">
+          <span class="label">Recado</span>
+          <div class="linha-campo">
+            <p class="valor">Disponível</p>
+            <img class="icone-acao" src="./assets/icons/edit.svg" alt="Editar" />
+          </div>
+        </div>
+
+        <div class="campo-perfil">
+          <span class="label">Telefone</span>
+          <div class="linha-campo">
+            <div class="grupo-telefone">
+              <img class="icone-campo" src="./assets/icons/phone.svg" alt="Telefone" />
+              <p class="valor">+55 11 98787 6567</p>
+            </div>
+            <img class="icone-acao" src="./assets/icons/copy.svg" alt="Copiar" />
+          </div>
+        </div>
+
+        <div class="secao-trocar-perfil">
+          <h2>Trocar de Perfil</h2>
+          <div class="grid-perfis">
+            <div class="item-perfil">
+              <img src="./assets/imgs/son.jpeg" alt="Ricky" />
+              <span>Ricky</span>
+            </div>
+            <div class="item-perfil">
+              <img src="./assets/imgs/son.jpeg" alt="BeeR" />
+              <span>BeeR</span>
+            </div>
+            <div class="item-perfil">
+              <img src="./assets/imgs/son.jpeg" alt="Sand" />
+              <span>Sand</span>
+            </div>
+            <div class="item-perfil">
+              <img src="./assets/imgs/son.jpeg" alt="Joe" />
+              <span>Joe</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    </aside>
+
+
+    <section class="painel-vazio"></section>
+
+  </div>
 </body>
 </html>
